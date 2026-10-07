@@ -1,0 +1,325 @@
+{
+  "version": "hospital-deck-v1",
+  "browser": "Chrome headless via CDP",
+  "generated": "2026-10-07T12:17:48.588Z",
+  "browser_checks": [
+    {
+      "name": "15 slides initialize from local file",
+      "passed": true
+    },
+    {
+      "name": "15 embedded script sections",
+      "passed": true
+    },
+    {
+      "name": "All local typefaces loaded",
+      "passed": true
+    },
+    {
+      "name": "Arrow reveals one fragment",
+      "passed": true
+    },
+    {
+      "name": "Arrow reverses fragment",
+      "passed": true
+    },
+    {
+      "name": "End opens last slide",
+      "passed": true
+    },
+    {
+      "name": "Home opens first slide",
+      "passed": true
+    },
+    {
+      "name": "Arrow navigation works with toolbar focus",
+      "passed": true
+    },
+    {
+      "name": "Overview opens",
+      "passed": true
+    },
+    {
+      "name": "Overview jumps to selected page",
+      "passed": true
+    },
+    {
+      "name": "Japanese and Chinese NGO notes match page",
+      "passed": true
+    },
+    {
+      "name": "Escape closes notes",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen opens",
+      "passed": true
+    },
+    {
+      "name": "Fullscreen closes",
+      "passed": true
+    },
+    {
+      "name": "Help opens",
+      "passed": true
+    },
+    {
+      "name": "Hash navigation",
+      "passed": true
+    },
+    {
+      "name": "Mobile canvas fits viewport",
+      "passed": true
+    },
+    {
+      "name": "No JavaScript exceptions",
+      "passed": true
+    },
+    {
+      "name": "No failed asset requests",
+      "passed": true
+    },
+    {
+      "name": "No external runtime requests",
+      "passed": true
+    },
+    {
+      "name": "All 15 slides fit without text overflow",
+      "passed": true
+    },
+    {
+      "name": "Headings have no decorative underline",
+      "passed": true
+    }
+  ],
+  "layout_issues": [],
+  "runtime_external_requests": [],
+  "pdf": {
+    "pages": 15,
+    "page_size_points": [
+      960,
+      540
+    ],
+    "readable_text_characters": [
+      189,
+      300,
+      204,
+      112,
+      177,
+      138,
+      199,
+      266,
+      213,
+      256,
+      249,
+      166,
+      229,
+      267,
+      129
+    ],
+    "self_contained_glyphs": true,
+    "font_resource_types": {
+      "/Type3": 478
+    },
+    "notes_excluded": true
+  },
+  "protected_originals": [
+    {
+      "file": "utokyo_hospital/volunteer/presentation/reference-template/index.html",
+      "sha256": "1cd5eede814f2dee4b51c2ad8ceda0a46cb056c201ccb8db4befbb9d34ec92f2",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/presentation/reference-template/assets/css/style.css",
+      "sha256": "f424a79d1cdbbfe87d1dddfa5e8637284d014ae5565a8e1fedef1eac67ff570c",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/presentation/reference-template/assets/js/deck.js",
+      "sha256": "46f6adf2142bc91bfdc2c68431f7d480043ecbf3600f7d799f2807a6f92f131d",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/APPLICATION_LETTER_JA.pdf",
+      "sha256": "7014ce031b4c45d8d8e2b56d9b19b573b6abcf8425f884ffc774697b81ebf70f",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/APPLICATION_LETTER_JA.tex",
+      "sha256": "c7ea78452170bc331331e16b0ba9ac90e2b34044056148182a238adff51f23c1",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/JOB_BACKGROUND.md",
+      "sha256": "fc239570154c1182ae77529accf6c1886c3e052daa551bd5e805579c7e2b264a",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/MOTIVATION_DRAFT_JA.md",
+      "sha256": "90657aae2fa85e8eb85f75616485570b49c2d41ff1641c6dba2a959d8acd8e2d",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/SHOKUMU_KEIREKISHO_JA.pdf",
+      "sha256": "e98492f3d28ff4aafbad7a8dfd2e7cf3d20cc1174da3c299533dafec8916cdc1",
+      "unchanged": true
+    },
+    {
+      "file": "utokyo_hospital/volunteer/UTokyo_Hospital_Application_Workspace_R9/SHOKUMU_KEIREKISHO_JA.tex",
+      "sha256": "b8a3b3ec7a419706876845f1a34c231384051c3c61f93ccbe7d55256915e222a",
+      "unchanged": true
+    }
+  ],
+  "artifacts": [
+    {
+      "file": "assets/css/style.css",
+      "bytes": 19658,
+      "sha256": "895cb17d8bffb7da0d032ada2893d89df4b33789de4e56bfc1ea40ee8e4b371e"
+    },
+    {
+      "file": "assets/fonts/font_sources.json",
+      "bytes": 2589,
+      "sha256": "627c4b476cc6e630c6efe5e78f84e9450c3ff8ff27da0dc2ccf8be3753bee11a"
+    },
+    {
+      "file": "assets/fonts/noto-sans-jp.woff",
+      "bytes": 365476,
+      "sha256": "211f164cbacaa0c841f6ed6bfa89e9f9b5bdb4ff6c05d0f1ec384d2d64c4f7a0"
+    },
+    {
+      "file": "assets/fonts/noto-sans-sc.woff",
+      "bytes": 420032,
+      "sha256": "846b63ca88dfe3d1eb4de42f1a4a4a907dd3bbfb47d8eb39a1541fe769f53c2d"
+    },
+    {
+      "file": "assets/fonts/noto-serif-jp.woff",
+      "bytes": 498792,
+      "sha256": "006f2547d650a039f6cb9ad744c07c1f4ba35ec7fdf849bb0e4588c3ec3df712"
+    },
+    {
+      "file": "assets/fonts/OFL.txt",
+      "bytes": 4393,
+      "sha256": "88f117575237307bdd86a17ef15e21790fc9a662fe4dfb103ca1ca077f0d9982"
+    },
+    {
+      "file": "assets/js/deck.js",
+      "bytes": 13204,
+      "sha256": "1cbed36550d7c433d443bbe49973a995170e78ab0e02277cd92c4b022e4143c4"
+    },
+    {
+      "file": "index.html",
+      "bytes": 53421,
+      "sha256": "a42a8cfd9cfa6906cb8f15568218bec509dbc88c288fcde80b90e4c3608593fa"
+    },
+    {
+      "file": "preview/contact-sheet.jpg",
+      "bytes": 391314,
+      "sha256": "5886215fed755a62cd90b204060f98db2cc89ac899fb1f543ab3818749095b55"
+    },
+    {
+      "file": "preview/notes-view.png",
+      "bytes": 180245,
+      "sha256": "684957f27473b9e357b66736eb4800b61562860dfa47645039807e9d33f5f476"
+    },
+    {
+      "file": "preview/slide-01.png",
+      "bytes": 100593,
+      "sha256": "1b726ce766efc1b60dee2ade977ec1020fff89f632f70954384dd7bd154b53a1"
+    },
+    {
+      "file": "preview/slide-02.png",
+      "bytes": 71071,
+      "sha256": "dd9aad1b9a0587e643e1598d2e2b309671d7a7d6f9caff7847e156c0ba4875df"
+    },
+    {
+      "file": "preview/slide-03.png",
+      "bytes": 82349,
+      "sha256": "ebe41c84d4cee154de8e1fa6aa7e8387ac403740b0623e3cf242d5c3cb117513"
+    },
+    {
+      "file": "preview/slide-04.png",
+      "bytes": 68474,
+      "sha256": "cbf0982cb674dfa994a538c5bcd68e9c0fa2008b6295ad13aa7f3805c8d757fd"
+    },
+    {
+      "file": "preview/slide-05.png",
+      "bytes": 82359,
+      "sha256": "6fca9b30b6148823db1271dd43814f7c64baa162d0b3a616a478f5817f0dfa5a"
+    },
+    {
+      "file": "preview/slide-06.png",
+      "bytes": 63880,
+      "sha256": "91974d2128d33061a6d646a6b8c7f0a79bde4a9d959bdab3d665cd5662f817c5"
+    },
+    {
+      "file": "preview/slide-07.png",
+      "bytes": 81118,
+      "sha256": "93feefea917c99fe6858359bacc3d450ba1eb5b89b5181eca7b17dfbe30e78e3"
+    },
+    {
+      "file": "preview/slide-08.png",
+      "bytes": 85095,
+      "sha256": "204f2f52424d0d03879883be91e7f23049056f6fe4f39bba4e8e6c2e501feb7b"
+    },
+    {
+      "file": "preview/slide-09.png",
+      "bytes": 85550,
+      "sha256": "5e43024d343a8dc20ddc023b026b4ce5b55c6a46c9d09957afbd103da82b65e2"
+    },
+    {
+      "file": "preview/slide-10.png",
+      "bytes": 80803,
+      "sha256": "807b73ea21a5d7b5e9f8a64f8d5b75ccd94aea68927f744d09da038a085ea1d3"
+    },
+    {
+      "file": "preview/slide-11.png",
+      "bytes": 78068,
+      "sha256": "67d31e959bbf52691f473e7391134c4f1c6d559d63808f6e171638abad8c7c6b"
+    },
+    {
+      "file": "preview/slide-12.png",
+      "bytes": 78889,
+      "sha256": "794fe329f71ecf4fc7b79a77f78880db8d5c3cfaa0f96d90a8c39214b2be0683"
+    },
+    {
+      "file": "preview/slide-13.png",
+      "bytes": 91244,
+      "sha256": "b14aca697926c521b946baeb768c5b1408aa19dbc544cc21ce989576723278f8"
+    },
+    {
+      "file": "preview/slide-14.png",
+      "bytes": 92403,
+      "sha256": "99b85775be87398cbbd41f65fe78c0fc94611179f1c40fde84d4d834562a9704"
+    },
+    {
+      "file": "preview/slide-15.png",
+      "bytes": 56829,
+      "sha256": "7c58ee2507b9ff4754d4ec45e7622cbc3bcc184a87f474d537acdef031e0eada"
+    },
+    {
+      "file": "README.md",
+      "bytes": 2984,
+      "sha256": "4e20b608bd38a3f5a8ddb0264624fdff2ab47d47f2931363740ae7253658f293"
+    },
+    {
+      "file": "slides.pdf",
+      "bytes": 1852580,
+      "sha256": "5df5707cc4dee8154ab7fdc0c291d3ed5f151e983b2b503a7bfc80639be3acd5"
+    },
+    {
+      "file": "sources.md",
+      "bytes": 3445,
+      "sha256": "d8c488a5be6c6948007b192c8ac08ddf457ab292965004f24900038d0d6fda57"
+    },
+    {
+      "file": "speaker_script.md",
+      "bytes": 29788,
+      "sha256": "d7c8b7dec76c14811e03474ba0b96f59677348186fa9f4626d78b91ec02628cd"
+    },
+    {
+      "file": "tools/prepare_assets.py",
+      "bytes": 4357,
+      "sha256": "ea94464a12c5f649c93641af160b0eaeeb08eb01231756c059f4ffaca0f7e38a"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "requested_url": "https://huang-wanhong.com/ncc-sap/slide/",
+  "resolved_url": "https://huang-wanhong.com/ncc-sap/slide/",
+  "status": 200,
+  "content_type": "text/html",
+  "bytes": 35795,
+  "sha256": "1cd5eede814f2dee4b51c2ad8ceda0a46cb056c201ccb8db4befbb9d34ec92f2",
+  "assets": [
+    {
+      "file": "assets/css/style.css",
+      "url": "https://huang-wanhong.com/ncc-sap/slide/assets/css/style.css",
+      "bytes": 12929,
+      "sha256": "f424a79d1cdbbfe87d1dddfa5e8637284d014ae5565a8e1fedef1eac67ff570c"
+    },
+    {
+      "file": "assets/js/deck.js",
+      "url": "https://huang-wanhong.com/ncc-sap/slide/assets/js/deck.js",
+      "bytes": 3272,
+      "sha256": "46f6adf2142bc91bfdc2c68431f7d480043ecbf3600f7d799f2807a6f92f131d"
+    }
+  ],
+  "retrieved_on": "2026-10-07",
+  "external_dependency": "Google Fonts stylesheet and font downloads referenced by upstream HTML; upstream source preserved."
+}

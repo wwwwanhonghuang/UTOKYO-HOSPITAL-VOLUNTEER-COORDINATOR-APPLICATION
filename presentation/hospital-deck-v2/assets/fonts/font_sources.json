@@ -1,0 +1,74 @@
+[
+  {
+    "file": "noto-sans-jp.woff",
+    "source": "NotoSansJP-VF.ttf",
+    "metadata": {
+      "0": [
+        "© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "1": [
+        "Noto Sans JP"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "characters": 912,
+    "bytes": 375224,
+    "sha256": "554b5d3f5f78bd94baae6709c300ff51b979ea771325655afd69cfa969d62589"
+  },
+  {
+    "file": "noto-serif-jp.woff",
+    "source": "NotoSerifJP-VF.ttf",
+    "metadata": {
+      "0": [
+        "© 2017-2023 Adobe (http://www.adobe.com/)."
+      ],
+      "1": [
+        "Noto Serif JP"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "characters": 912,
+    "bytes": 511124,
+    "sha256": "15009a790d800eb4bfa26d443e0d1a3cd83636eeedff99ce1f405e76900a552f"
+  },
+  {
+    "file": "noto-sans-sc.woff",
+    "source": "NotoSansSC-VF.ttf",
+    "metadata": {
+      "0": [
+        "© 2014-2021 Adobe (http://www.adobe.com/), with Reserved Font Name 'Source'."
+      ],
+      "1": [
+        "Noto Sans SC"
+      ],
+      "2": [
+        "Regular"
+      ],
+      "13": [
+        "This Font Software is licensed under the SIL Open Font License, Version 1.1. This Font Software is distributed on an \"AS IS\" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the SIL Open Font License for the specific language, permissions and limitations governing your use of this Font Software."
+      ],
+      "14": [
+        "http://scripts.sil.org/OFL"
+      ]
+    },
+    "characters": 1082,
+    "bytes": 432044,
+    "sha256": "b0abd8f1bfbfa9c99eb61fb0f9fafa2774c3d749ae64d947de0264f75722084f"
+  }
+]

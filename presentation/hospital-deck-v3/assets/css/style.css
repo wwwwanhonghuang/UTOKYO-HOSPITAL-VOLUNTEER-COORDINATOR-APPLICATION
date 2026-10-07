@@ -1,0 +1,121 @@
+/* Scholarly lecture / second edition. Hierarchy comes from type and spacing.
+   No decorative diagrams, heading rules, colored callouts or slogan labels. */
+@font-face{font-family:Deck Sans;src:url('../fonts/noto-sans-jp.woff') format('woff');font-weight:100 900;font-display:swap}
+@font-face{font-family:Deck Serif;src:url('../fonts/noto-serif-jp.woff') format('woff');font-weight:100 900;font-display:swap}
+@font-face{font-family:Deck Chinese;src:url('../fonts/noto-sans-sc.woff') format('woff');font-weight:100 900;font-display:swap}
+:root{--bg:#FFF8FA;--ink:#4d4149;--muted:#7e6d77;--rose:#a66182;--pink:#bd819e;--line:#ead7e1;--soft:#f5e7ee;--scale:1}
+*{box-sizing:border-box}html,body{margin:0;height:100%;color:var(--ink);font-family:Deck Serif,Deck Chinese,'Yu Mincho',serif;font-weight:400}body{background:#ece4e9;overflow:hidden}h1,h2,h3,p,blockquote,figure,dl,dd{margin:0}h1,h2,h3{font-weight:500}a{color:inherit;text-decoration:none}a:hover{text-decoration:underline}button{font:inherit;cursor:pointer}button:focus-visible,a:focus-visible{outline:2px solid var(--rose);outline-offset:4px}button:disabled{opacity:.35;cursor:default}.sr-only{position:absolute;width:1px;height:1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+#viewport{position:fixed;inset:0 0 56px;display:flex;align-items:center;justify-content:center;overflow:hidden}#stage{position:relative;flex-shrink:0;width:1280px;height:720px;transform:scale(var(--scale));transform-origin:center;overflow:hidden;background:var(--bg);box-shadow:0 14px 55px #0003}.slide{position:absolute;inset:0;padding:52px 100px 87px;background:var(--bg);display:flex;flex-direction:column;visibility:hidden;opacity:0;transition:opacity .22s ease}.slide.active{visibility:visible;opacity:1}.head{flex-shrink:0;margin-bottom:36px}.eyebrow{font-size:14px;line-height:1.5;color:var(--muted);letter-spacing:.1em;margin-bottom:12px}.head h2{font-size:36px;line-height:1.55;letter-spacing:.02em;color:var(--rose)}.head h2.long-title{font-size:29px;letter-spacing:0}.body{flex:1;min-height:0;display:flex;flex-direction:column;justify-content:center}.footer{position:absolute;bottom:26px;left:100px;right:100px;display:flex;align-items:center;justify-content:space-between;font-size:11px;color:var(--muted);line-height:1.8;letter-spacing:.035em}.pg{font-variant-numeric:tabular-nums;letter-spacing:.12em}.source{position:absolute;bottom:63px;left:100px;right:100px;font-size:12px;line-height:1.75;color:var(--muted)}.research{padding-bottom:110px}.speaker-notes{display:none}.js .fr{opacity:0;transition:opacity .3s ease}.js .fr.show{opacity:1}.column-label,.reading-label{font-size:15px;font-weight:400;color:var(--muted);line-height:1.6;letter-spacing:.04em}.large-thought{font-size:34px;line-height:1.95;font-weight:400;letter-spacing:.012em}.gloss{font-size:18px;line-height:1.9;color:var(--muted);margin-top:28px}.preface{font-size:20px;line-height:1.85;color:var(--muted);margin-bottom:29px}.closing-observation{font-size:22px;line-height:1.9;margin-top:44px}.research-spread{display:grid;grid-template-columns:1.05fr 1fr;gap:80px;align-items:center}.parallel-readings{display:grid;grid-template-columns:1fr 1fr;gap:80px}.parallel-readings h3{font-size:28px;line-height:1.8;margin-top:16px}.parallel-readings p:not(.reading-label){font-size:20px;line-height:1.95;margin-top:25px;color:var(--muted)}
+/* The opening is a title page, without a symbolic drawing to decipher. */
+.title-page{padding-top:53px;text-align:center}.occasion{font-size:14px;letter-spacing:.08em;color:var(--muted)}.title-content{margin-top:132px}.title-content h1{font-size:64px;line-height:1.5;letter-spacing:.04em;font-weight:500;white-space:nowrap}.title-subtitle{font-size:25px;letter-spacing:.13em;margin-top:21px;color:var(--muted)}.title-author{margin-top:69px}.author-ja{font-size:28px;letter-spacing:.18em}.author-en{font-size:15px;letter-spacing:.065em;color:var(--muted);margin-top:8px}.title-affiliation{font-size:15px;line-height:1.9;margin-top:22px;color:var(--muted)}.title-occasion{position:absolute;bottom:88px;left:100px;right:100px;font-size:13px;letter-spacing:.035em;color:var(--muted)}.title-page .footer>span:first-child{visibility:hidden}
+/* Chronology is read as dated evidence, including the overlapping periods. */
+.biography-columns{display:grid;grid-template-columns:.84fr 1.16fr;gap:94px}.biography-columns .column-label{margin-bottom:27px}.chronology-entry h3{font-size:25px;line-height:1.55;margin:7px 0 8px}.chronology-entry p:not(.date){font-size:18px;line-height:1.8}.chronology-entry .date{font-size:14px;color:var(--muted);letter-spacing:.025em}.education .chronology-entry+.chronology-entry{margin-top:52px}.work-history .chronology-entry+.chronology-entry{margin-top:23px}.work-history .chronology-entry h3{font-size:22px;margin:4px 0}.work-history .chronology-entry p:not(.date){font-size:17px;line-height:1.75}.marginal-note{font-size:17px;color:var(--muted);line-height:1.8;margin-top:26px}.biography-page .head{margin-bottom:28px}.biography-page .body{justify-content:flex-start}
+/* Full questions, instead of a row of free-floating keywords. */
+.questions-page .preface{margin-bottom:25px;font-size:18px}.question-lines{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:26px}.question-lines li{display:flex;gap:31px;align-items:flex-start}.ordinal{font-size:16px;color:var(--muted);line-height:2.6;width:24px;flex-shrink:0}.question-lines h3{font-size:29px;line-height:1.6;letter-spacing:.015em}.question-lines p{font-size:17px;line-height:1.85;color:var(--muted);margin-top:6px}.choice-page .head h2{font-size:27px;font-weight:400}.choice-page .body{padding-bottom:19px}.personal-statement{font-size:43px;line-height:2.05;letter-spacing:.005em;font-weight:400}.choice-page .eyebrow{margin-bottom:16px}
+/* A meditation and an index of methods, not a competency constellation. */
+.asymmetric-columns{display:grid;grid-template-columns:.94fr 1.06fr;gap:87px;align-items:center}.methods-page .large-thought{font-size:32px}.methods-page .gloss{font-size:16px}.methods-index .column-label{margin-bottom:20px}.methods-index dl{display:flex;flex-direction:column;gap:16px}.methods-index dl>div{display:grid;grid-template-columns:160px 1fr;gap:15px;align-items:baseline}.methods-index dt{font-size:20px;line-height:1.8;white-space:nowrap}.methods-index dd{font-size:17px;line-height:1.85;color:var(--muted)}.quotation-spread{display:grid;grid-template-columns:1fr 1.02fr;gap:70px;align-items:center}.classic-figure blockquote{font-size:47px;line-height:1.9;letter-spacing:.035em;font-weight:400}.classic-figure figcaption{font-size:15px;color:var(--muted);margin-top:25px}.reading .column-label{margin-bottom:26px}.reading p{font-size:21px;line-height:1.95}.reading p+p{margin-top:26px}.classical-page .body{padding-bottom:12px}
+/* Research pages distinguish questions and levels of interpretation. */
+.foundation-page .large-thought{font-size:31px}.foundation-page .gloss{font-size:17px}.research-questions .text-section+.text-section{margin-top:45px}.research-questions h3{font-size:23px;line-height:1.7}.research-questions p{font-size:19px;line-height:1.95;color:var(--muted);margin-top:18px}.value-page .preface{margin-bottom:32px}.value-page .parallel-readings h3{font-size:31px}.value-page .closing-observation{font-size:21px;margin-top:36px}.aid-page .large-thought{font-size:32px}.aid-questions .text-section+.text-section{margin-top:25px}.aid-questions h3{font-size:26px;line-height:1.65}.aid-questions p{font-size:17px;line-height:1.85;color:var(--muted);margin-top:8px}.aid-page .gloss{font-size:18px}.humanitarian-page .parallel-readings h3{font-size:29px}.humanitarian-page .closing-observation{font-size:21px;margin-top:42px}.juridical-page .parallel-readings h3{font-size:27px}.juridical-page .parallel-readings p:not(.reading-label){font-size:19px}.practical-reading{margin-top:36px}.practical-reading>span{font-size:14px;color:var(--muted);letter-spacing:.035em}.practical-reading p{font-size:20px;line-height:1.9;margin-top:11px}
+/* The work is expressed in verbs and evidence, without a role triangle. */
+.hospital-page .large-thought{font-size:31px}.experience-note{margin-top:35px}.experience-note>span{font-size:14px;color:var(--muted)}.experience-note p{font-size:17px;line-height:1.9;margin-top:10px}.work-reading>.column-label{margin-bottom:24px}.work-reading .text-section+.text-section{margin-top:24px}.work-reading h3:not(.column-label){font-size:25px;line-height:1.6}.work-reading p{font-size:17px;line-height:1.85;color:var(--muted);margin-top:7px}.experience-table{border-collapse:collapse;width:100%;table-layout:fixed;text-align:left}.experience-table th,.experience-table td{font-weight:400;vertical-align:middle;line-height:1.8;padding:19px 20px 20px 0}.experience-table thead th{font-size:15px;color:var(--muted);padding-top:0;padding-bottom:19px}.experience-table tbody th{font-size:22px;width:31%}.experience-table tbody td{font-size:19px}.experience-table tbody tr+tr>*{border-top:1px solid var(--line)}.contribution-page .closing-observation{font-size:21px;margin-top:28px}.contribution-page .body{justify-content:flex-start;padding-top:8px}
+/* Present responsibilities, study aspirations, and the organization's purpose. */
+.future-spread{display:grid;grid-template-columns:.8fr 1.2fr;gap:82px;align-items:start}.future-context .text-section+.text-section{margin-top:61px}.future-context .column-label{margin-bottom:17px}.future-context p{font-size:22px;line-height:1.9}.future-context .future-schools{font-size:17px;line-height:1.9;margin-top:16px}.future-schools span{font-size:15px;color:var(--muted)}.ngo-reading h3{font-size:29px;line-height:1.65}.organization{font-size:15px;letter-spacing:.025em;color:var(--muted);margin-top:8px}.ngo-present{font-size:17px;line-height:1.9;margin-top:22px}.ngo-reason{font-size:25px;line-height:1.85;margin-top:24px}.ngo-future{font-size:19px;line-height:1.9;margin-top:25px;color:var(--muted)}.future-page .head{margin-bottom:31px}.future-page .body{justify-content:flex-start;padding-top:7px}
+/* A quiet colophon. */
+.closing-page .body{padding-left:35px;padding-bottom:25px}.closing-quotation blockquote{font-size:68px;letter-spacing:.13em;line-height:1.65;font-weight:400}.closing-quotation figcaption{font-size:15px;color:var(--muted);margin-top:11px}.closing-thought{font-size:31px;line-height:1.95;letter-spacing:.03em;margin-top:39px}.closing-signature{font-size:23px;letter-spacing:.13em;margin-top:35px}
+
+/* Presentation controls stay outside the projected canvas. */
+#progress{position:fixed;top:0;left:0;height:3px;background:var(--pink);z-index:5;transition:width .2s}.controls{position:fixed;bottom:0;left:0;right:0;height:56px;display:flex;align-items:center;justify-content:space-between;padding:0 24px;background:#fcf5f8;color:#786873;z-index:10;gap:12px}.navigation,.tools{display:flex;align-items:center;gap:8px}.controls button{border:0;background:transparent;border-radius:5px;min-height:34px;padding:5px 11px;font-size:13px;color:inherit}.controls button:hover{background:var(--soft)}.navigation button{font-size:23px;width:40px;padding:0}.navigation #counter{font-size:12px;min-width:61px;text-align:center;letter-spacing:.05em}kbd{font-family:inherit;font-size:10px;opacity:.6;padding-left:5px}.controls #help-toggle{border:1px solid var(--line);width:27px;min-height:27px;padding:0;margin-left:9px}.has-notes #viewport{right:430px}.has-notes .controls{right:430px}.has-notes .tools{gap:1px}.has-notes .tools button{padding:5px 7px}.has-notes .tools kbd{display:none}#notes-panel{position:fixed;right:0;top:0;bottom:0;width:430px;background:#FFF8FA;border-left:1px solid var(--line);z-index:15;padding:24px;overflow:auto}#notes-panel[hidden]{display:none}.notes-heading,.dialog-heading{display:flex;justify-content:space-between;align-items:center;gap:18px}.notes-heading{position:sticky;top:-24px;background:#FFF8FA;padding:12px 0 18px;z-index:1}.notes-heading h2{font-size:18px;line-height:1.7;color:var(--rose)}.notes-heading button,.dialog-heading button{border:0;background:var(--soft);color:var(--rose);font-size:23px;width:35px;height:35px;flex-shrink:0;border-radius:50%}#notes-content{font-size:16px;line-height:2;color:var(--ink)}#notes-content h3{font-size:17px;color:var(--rose);margin:23px 0 12px}#notes-content p{margin:0 0 17px}#notes-content .note-intent{font-size:14px;color:var(--muted)}#notes-content details{margin-top:25px}#notes-content summary{cursor:pointer;color:var(--rose)}#notes-content .timing{font-size:13px;color:var(--muted)}dialog{border:0;border-radius:9px;padding:30px;background:var(--bg);color:var(--ink);width:min(960px,92vw);max-height:88vh;box-shadow:0 20px 90px #0005}dialog::backdrop{background:#493440aa;backdrop-filter:blur(5px)}.dialog-heading{margin-bottom:25px}.dialog-heading h2{font-size:24px;color:var(--rose)}#overview-list{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}#overview-list button{border:1px solid var(--line);border-radius:4px;text-align:left;background:#fffafb;padding:17px;min-height:92px;color:var(--ink);font-size:15px;line-height:1.65;display:flex;gap:13px;align-items:flex-start}#overview-list button:hover,#overview-list button[aria-current="step"]{background:var(--soft);border-color:var(--pink)}#overview-list .overview-number{font-size:14px;color:var(--rose);min-width:20px}#help-dialog{width:min(540px,90vw)}.help-list{display:grid;grid-template-columns:140px 1fr;gap:15px;font-size:16px;line-height:1.6}.help-list dt{color:var(--rose)}.help-list dd{margin:0}#help-dialog>p{font-size:14px;color:var(--muted);margin-top:25px}.no-script{position:fixed;top:10px;left:10px;z-index:30;background:white;padding:15px;font-size:14px}
+@media(max-width:700px){.controls{padding:0 8px}.tools{gap:0}.tools kbd{display:none}.controls button{padding:5px 8px}.controls #fullscreen-toggle{display:none}.has-notes #viewport{right:0}.has-notes .controls{right:0}#notes-panel{width:min(430px,100vw);bottom:56px}#overview-list{grid-template-columns:1fr 1fr}dialog{padding:20px}#overview-list button{padding:12px;font-size:13px}.dialog-heading h2{font-size:20px}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{transition:none!important;animation:none!important}}
+@page{size:1280px 720px;margin:0}
+@media print{html,body{height:auto!important;overflow:visible!important;background:var(--bg);-webkit-print-color-adjust:exact;print-color-adjust:exact}#viewport{display:block!important;position:static!important;overflow:visible!important}#stage{width:1280px!important;height:auto!important;transform:none!important;box-shadow:none!important;overflow:visible!important}.slide{position:relative!important;width:1280px!important;height:720px!important;visibility:visible!important;opacity:1!important;break-after:page;page-break-after:always;overflow:hidden!important;transition:none!important}.slide:last-child{break-after:auto;page-break-after:auto}.fr,.js .fr{opacity:1!important;transform:none!important;transition:none!important}.controls,#progress,#notes-panel,dialog,.no-script{display:none!important}a{text-decoration:none!important}}
+
+.controls,dialog,#notes-panel{font-family:Deck Sans,Deck Chinese,sans-serif}#progress{height:2px;opacity:.55}
+
+/* Retain the reference palette’s gentleness within the editorial typography. */
+.title-content h1,.classic-figure blockquote,.closing-quotation blockquote,.personal-statement .quiet-emphasis{color:var(--rose)}
+.ngo-future{color:var(--ink)}
+
+/* Evidence edition: manuscript images are primary content, never decoration. */
+.evidence-page{padding-left:76px;padding-right:76px;padding-bottom:97px}
+.evidence-page .head{margin-bottom:20px}
+.evidence-page .head h2{font-size:34px}
+.evidence-page .head h2.long-title{font-size:29px}
+.evidence-page .source{left:76px;right:76px;bottom:58px;font-size:11.5px}
+.evidence-page .body{padding:0;justify-content:center}
+.evidence-layout{display:grid;grid-template-columns:420px 650px;gap:58px;align-items:center}
+.evidence-thought{font-size:29px;line-height:1.9;color:var(--ink)}
+.evidence-explanation{font-size:19px;line-height:1.9;margin-top:24px}
+.evidence-note{font-size:16px;line-height:1.85;color:var(--muted);margin-top:26px}
+.paper-heading{margin-bottom:12px}
+.paper-heading>p{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:12px;color:var(--muted);line-height:1.6;margin-bottom:4px}
+.paper-heading h3{font-size:18px;font-weight:500;line-height:1.45;letter-spacing:0}
+.paper-figure{margin:0}
+.paper-figure+.paper-figure{margin-top:14px}
+.paper-figure button{display:block;position:relative;padding:0;border:0;background:#fff;width:100%;line-height:0;cursor:zoom-in;border-radius:0}
+.paper-figure img{display:block;width:100%;height:auto;max-height:335px;object-fit:contain;object-position:left center}
+.paper-figure figcaption{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11.5px;line-height:1.75;color:var(--muted);margin-top:5px;display:flex;gap:10px;justify-content:space-between}
+.paper-figure figcaption a{white-space:nowrap;color:var(--rose)}
+.artifact-reading{font-size:17px;line-height:1.8;margin-top:17px;color:var(--ink)}
+.evidence-career .evidence-layout{grid-template-columns:390px 680px}
+.compact-career>div{margin-bottom:13px}
+.compact-career .date{font-size:12px;color:var(--muted);line-height:1.6}
+.compact-career h3{font-size:21px;line-height:1.5;display:inline}
+.compact-career>div>p:not(.date){font-size:15px;line-height:1.65;margin-top:2px}
+.compact-career .career-overlap{font-size:14px;color:var(--muted);line-height:1.75;margin-top:11px}
+.evidence-career .paper-heading h3{font-size:19px}
+.evidence-career .paper-figure img{max-height:none}
+.evidence-methods .evidence-thought{font-size:28px}
+.method-shortlist{margin-top:24px;display:flex;flex-direction:column;gap:12px}
+.method-shortlist>div{display:grid;grid-template-columns:144px 1fr;gap:13px;align-items:baseline}
+.method-shortlist dt{font-size:17px;line-height:1.6;white-space:nowrap}
+.method-shortlist dd{font-size:16px;line-height:1.6;color:var(--muted)}
+.evidence-methods .evidence-explanation{font-size:16px;line-height:1.85;margin-top:26px}
+.evidence-methods .paper-figure img{max-height:345px}
+.evidence-foundation .paper-heading h3{font-size:17px}
+.evidence-foundation .paper-figure+.paper-figure{margin-top:11px}
+.evidence-foundation .evidence-thought{font-size:28px}
+.evidence-value .specific-example{margin-top:24px}
+.specific-example h3{font-size:14px;color:var(--rose);margin-bottom:9px}
+.specific-example p{font-size:19px;line-height:1.9}
+.evidence-value .evidence-explanation{font-size:18px}
+.evidence-value .evidence-note{margin-top:22px;font-size:15px}
+.evidence-aid .paper-figure+.paper-figure{margin-top:33px}
+.evidence-aid .artifact-reading{margin-top:28px;font-size:16px}
+.evidence-humanitarian .distinction h3{font-size:14px;color:var(--muted);margin-bottom:11px}
+.evidence-humanitarian .distinction p{font-size:28px;line-height:1.85}
+.evidence-humanitarian .distinction+.distinction{margin-top:31px}
+.transcribed-quote{margin:21px 0 25px}
+.transcribed-quote>p{font-size:12px;color:var(--muted);margin-bottom:8px}
+.transcribed-quote blockquote{font-size:22px;line-height:1.8}
+.evidence-law .evidence-thought{font-size:28px}
+.record-reading{margin-top:27px}
+.record-reading>div+div{margin-top:16px}
+.record-reading dt{font-size:20px;line-height:1.6}
+.record-reading dd{font-size:16px;line-height:1.9;margin-top:4px;color:var(--muted)}
+.evidence-law .evidence-note{font-size:15px;margin-top:22px}
+.evidence-law .paper-figure img{max-height:none}
+.controls .library-link{font:13px Deck Sans,sans-serif;padding:8px 10px}
+#evidence-dialog{width:min(1200px,95vw);max-height:95vh;background:var(--bg);padding:24px}
+#evidence-dialog .dialog-heading h2{font:16px/1.7 Deck Sans,Deck Chinese,sans-serif;color:var(--ink)}
+#evidence-image{display:block;max-width:100%;max-height:72vh;width:auto;height:auto;object-fit:contain;margin:0 auto}
+#evidence-pdf{display:block;width:fit-content;margin:18px 0 0 auto;color:var(--rose);font-size:15px}
+body.reference-library{height:auto;min-height:100vh;overflow:auto;background:var(--bg);color:var(--ink);font-family:Deck Serif,Deck Chinese,serif}
+.reference-library main{max-width:1180px;margin:0 auto;padding:60px 40px}
+.reference-library main>a{font-size:16px;color:var(--rose)}
+.reference-library main>header{margin:55px 0 65px}
+.reference-library main>header>p{font-size:18px;line-height:1.9;color:var(--muted)}
+.reference-library h1{font-size:42px;color:var(--rose);margin:14px 0 25px}
+.reference-entry{display:grid;grid-template-columns:210px 1fr;gap:50px;margin-bottom:72px;scroll-margin-top:30px}
+.paper-cover{width:210px;height:auto;display:block;border:1px solid var(--line)}
+.bibliographic-status{font:13px/1.7 Deck Sans,sans-serif;color:var(--muted)}
+.reference-entry h2{font-size:26px;line-height:1.6;margin:12px 0 16px}
+.reference-entry .authors{font-size:15px;line-height:1.6;color:var(--muted)}
+.reference-links{font-size:16px;color:var(--rose);margin:18px 0}
+.reference-entry ul{padding-left:20px;margin:22px 0 0}
+.reference-entry li{font-size:17px;line-height:1.7;margin:17px 0}
+.reference-entry li p{font-size:15px;color:var(--muted);margin:7px 0}
+.reference-entry li>a:last-child{font-size:14px;color:var(--rose)}
+.reference-library footer{font-size:14px;color:var(--muted)}
+@media(max-width:700px){.reference-library main{padding:30px 22px}.reference-library h1{font-size:30px}.reference-entry{grid-template-columns:1fr;gap:20px}.paper-cover{width:160px}.reference-entry h2{font-size:23px}.controls .library-link{font-size:12px;padding:8px 5px}}
+@media print{.paper-figure button{cursor:default}.evidence-open img{break-inside:avoid}#evidence-dialog{display:none!important}}

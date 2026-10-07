@@ -1,0 +1,145 @@
+\documentclass[10.5pt,a4paper]{article}
+\usepackage[top=19mm,bottom=18mm,left=22mm,right=22mm]{geometry}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage{parskip}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\setmainfont{Noto Serif CJK JP}
+\setCJKmainfont{Noto Serif CJK JP}
+\setsansfont{Noto Serif CJK JP}
+\setCJKsansfont{Noto Serif CJK JP}
+\newfontfamily\minchofont{Noto Serif CJK JP}
+
+\hypersetup{colorlinks=false,hidelinks}
+\setlength{\parindent}{1em}
+\setlength{\parskip}{0.32em}
+\linespread{1.24}
+\setlength{\emergencystretch}{2em}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\small -- \thepage\ --}
+
+\newcommand{\MajorSection}[1]{%
+  \par\vspace{0.85em}%
+  {\minchofont\bfseries\fontsize{12.2pt}{15pt}\selectfont #1}\par
+  \vspace{0.32em}%
+}
+
+\newcommand{\Institution}[1]{%
+  \par\vspace{0.55em}%
+  {\minchofont\bfseries\fontsize{11.2pt}{14pt}\selectfont #1}\par
+  \vspace{0.1em}%
+}
+
+\newcommand{\RoleLine}[1]{%
+  {\minchofont\bfseries #1}\par\vspace{0.08em}%
+}
+
+\newlist{formalitems}{enumerate}{1}
+\setlist[formalitems]{
+  label=\textbf{（\arabic*）},
+  leftmargin=3.2em,
+  labelsep=0.45em,
+  itemsep=0.18em,
+  topsep=0.16em,
+  parsep=0pt,
+  partopsep=0pt,
+  align=left
+}
+
+\begin{document}
+
+\begin{center}
+  {\minchofont\bfseries\fontsize{18pt}{22pt}\selectfont 職務経歴書}
+\end{center}
+
+\vspace{0.3em}
+\begin{flushright}
+2026年10月6日現在\\
+{\bfseries 黄 万鴻}
+\end{flushright}
+
+\MajorSection{1．職務要約}
+東京大学大学院情報理工学系研究科を修了後、国立精神・神経医療研究センターにおいて、脳波解析、てんかん発作予測およびシミュレーション基盤の研究開発に従事しました。並行して、一般社団法人林創研との業務委託契約に基づき、データ分析、機械学習、AR、動作認識等に関するソフトウェア開発を担当しました。
+
+現在は、工学・自然科学のみでは十分に扱いきれない現代的課題への問題意識から、人文・社会科学へ研究領域を拡張し、自己資金による独立研究を継続しています。哲学、正義論、倫理学、法学、政治経済学、社会学、人類学、国際関係論、ガバナンス理論等を横断し、研究、執筆、成果公開および将来の社会実践に向けた基盤整備を行っています。
+
+\MajorSection{2．職務経歴}
+
+\Institution{国立研究開発法人 国立精神・神経医療研究センター（NCNP）}
+\RoleLine{2024年7月～2025年6月　リサーチアシスタント（非常勤・週21～28時間）}
+脳病態統合イメージングセンター（IBIC）先進脳画像研究部
+
+\begin{formalitems}
+\item 脳波解析およびてんかん発作予測アルゴリズムの研究開発を担当しました。
+\item 共同研究者と連携し、PythonおよびC++によるスパイキングニューラルネットワークのシミュレーション基盤を開発しました。成果の一部として、関連コードを公開しました。
+\item 脳波に構文解析を応用する解析・発作予測ソフトウェアを共同開発しました。研究上の情報整理、方法検討、実装および検証に継続的に従事しました。
+\item 共同研究に伴う進捗共有、技術的検討、研究原稿および関連文書の作成を経験しました。
+\end{formalitems}
+
+\Institution{一般社団法人 林創研}
+\RoleLine{2024年8月～2026年7月　業務委託（データ分析・ソフトウェア開発等）　契約終了}
+
+\begin{formalitems}
+\item ARソフトウェアおよび感情検出システムについて、単独の開発担当者として設計、実装および納品を行いました。
+\item モーションキャプチャ・動作認識システム、ダンスから音楽へ変換するアルゴリズムおよび関連アプリケーションの設計・実装を担当しました。
+\item 委託内容を整理し、必要な機能を具体化したうえで、開発、検証および成果物の整理まで一貫して担当しました。
+\end{formalitems}
+
+\Institution{独立研究・社会実践基盤の構築}
+\RoleLine{2026年3月～現在　自己資金による個人活動}
+工学・自然科学に加えて人文・社会科学の知見を統合し、現代社会の制度、関係、責任および協働に関する理論研究を進めています。研究成果の継続的な公表と将来の実践基盤を整備するため、2026年5月にSerendip Commons Society（米国デラウェア州非営利法人）を設立しましたが、現時点で雇用者・職員はおらず、活動は本人が自己資金により単独で行っています。したがって、実質的には独立研究者としての個人活動です。
+
+\begin{formalitems}
+\item 哲学、正義論、倫理学、法学、政治経済学、社会学、人類学、国際関係論およびガバナンス理論等に関する文献調査・理論研究を継続しています。
+\item 人道主義、援助理論、国際協力、平和構築等を、理論と実践の接続に関わる研究領域として扱っています。
+\item 論文・書籍原稿の作成、研究成果の整理・公開、個人ウェブサイトの運営、研究用ソフトウェアおよび計算基盤の整備を行っています。
+\item 複数分野にまたがる文献、概念および論点を整理し、目的と読者に応じた文書として構成する作業を継続しています。
+\end{formalitems}
+
+\MajorSection{3．関連する活動}
+国連ボランティア計画（UNV）を通じ、SDG 3「すべての人に健康と福祉を」に関連するボランティア活動に参加した経験があります。また、研究活動においても、人道主義、援助理論、国際協力、平和構築等を継続的な研究対象とし、理論と実践の相互作用を重視しています。
+
+\MajorSection{4．職務上活用できる経験・技能}
+
+\Institution{文書作成・調査・情報整理}
+文献や資料を調査し、複数の論点と根拠の範囲を整理したうえで、研究原稿、技術文書および説明資料としてまとめる作業を継続してきました。情報量の多い課題についても、目的、読み手および必要な精度に応じて構造化することができます。
+
+\Institution{共同作業・業務調整}
+NCNPにおける共同研究および林創研における業務委託を通じ、関係者との認識合わせ、進捗共有、要件整理および成果物の取りまとめを経験しました。担当範囲を明確にし、必要事項を確認しながら業務を進めることを重視しています。
+
+\Institution{データ分析・ソフトウェア開発}
+Python、C++、Java、Cを用いた研究開発・実装経験があります。脳波解析、機械学習、シミュレーション、AR、感情検出および動作認識等に関する開発に従事しました。
+
+\Institution{業務用ソフトウェア}
+Microsoft Word、Excel、PowerPoint、電子メール、Zoom、Google Workspace、Canva等の使用経験があります。
+
+\Institution{語学}
+中国語を母語とし、日本語能力試験（JLPT）N1を2019年に取得しました。英語はTOEIC 890点（2021年）で、英語による研究原稿の執筆経験があります。
+
+\MajorSection{5．主な資格・学位}
+
+\noindent\textbf{2013年}\quad ソフトウェア設計師（中国国家資格）\par
+\noindent\textbf{2021年6月}\quad 大連理工大学卒業　工学学士・文学学士（日本語）\par
+\noindent\textbf{2024年3月}\quad 東京大学大学院情報理工学系研究科修了　修士（情報理工学）\par
+\noindent\textbf{2024年}\quad 日本心理学検定 特1級\par
+
+\MajorSection{6．本職への活用}
+医療・研究機関での勤務、共同研究、文書作成、情報整理およびIT活用の経験を基礎として、ボランティア活動員に関する記録・連絡・調整、研修や行事の準備、関係部署との情報共有、患者サービスを支える各種事務を、正確かつ丁寧に遂行したいと考えています。未経験の業務については、院内の手順、役割分担および安全上の要請を尊重し、必要な知識を学びながら着実に習得します。
+
+\vspace{0.8em}
+\begin{flushright}
+\href{mailto:huangwanhong@serendip.ngo}{huangwanhong@serendip.ngo}\\
+\href{https://huang-wanhong.com}{huang-wanhong.com}\\[0.5em]
+以上
+\end{flushright}
+
+\end{document}
