@@ -1,0 +1,704 @@
+{
+  "version": "hospital-deck-v10",
+  "purpose": "Concrete research evidence for the presentation",
+  "papers": [
+    {
+      "id": "sac2023",
+      "key": "huang2023_optimizing_order_bytecode",
+      "title": "Optimizing the Order of Bytecode Handlers in Interpreters using a Genetic Algorithm",
+      "authors": [
+        "Huang, Wanhong",
+        "Marr, Stefan",
+        "Ugawa, Tomoharu"
+      ],
+      "year": 2023,
+      "status": "published",
+      "peer_reviewed": true,
+      "display_status": "査読付き国際会議論文・著者版",
+      "url": "https://doi.org/10.1145/3555776.3577712",
+      "doi": "https://doi.org/10.1145/3555776.3577712",
+      "source_file": "meta/assets/publications_pdf/huang2023_optimizing_order_bytecode.pdf",
+      "local_pdf": "assets/papers/bytecode-handlers.pdf",
+      "sha256": "6cc37c0e5e395c2d80193ae7f44a1c59d3688df752105ea87448404e9f74d38c",
+      "pdf_pages": 10,
+      "first_page_image": "assets/evidence/sac2023-first-page.png",
+      "slide": null,
+      "excerpts": [
+        {
+          "id": "sac-figure-5",
+          "image": "assets/evidence/sac-figure-5.png",
+          "physical_pdf_page": 7,
+          "printed_page": "7",
+          "location": "Figure 5",
+          "verified_original_text": "Speed up for the GA solution over the original eJSVM",
+          "caption_ja": "Figure 5 · p.7｜四つの CPU 環境での評価（図・キャプション全体）",
+          "japanese_explanation": "四つの CPU 環境のグラフ、軸、95%信頼区間を示す元のキャプションを保持。旧選段は適切なため継続。",
+          "crop_coordinates": [
+            70,
+            81,
+            555,
+            307
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            612.0,
+            792.0
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1940,
+            904
+          ],
+          "image_sha256": "48dfb48447c687d68081337376d86c0f95a947e369c7f6d8e81962930fc74a55",
+          "selection_review": "excerpt_selection.md"
+        }
+      ],
+      "presentation_location": "evidence.html#sac2023 (reference gallery only)"
+    },
+    {
+      "id": "gft2025",
+      "key": "huang2025_group_field_theoretical",
+      "title": "Towards Group Field-Theoretical Linguistics: A Unified Framework for Integrating Linguistic, Sociological, and Cognitive Phenomena",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2025,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "理論的提案・プレプリント",
+      "url": "https://osf.io/n8y9b/",
+      "doi": "10.17605/OSF.IO/N8Y9B",
+      "source_file": "meta/assets/publications_pdf/huang2025_group_field_theoretical.pdf",
+      "local_pdf": "assets/papers/field-theoretical-linguistics.pdf",
+      "sha256": "f2e626caf329baf5478a3bd2ff6595b5db296e97fb8343584e6331c29b9a8b0d",
+      "pdf_pages": 32,
+      "first_page_image": "assets/evidence/gft2025-first-page.png",
+      "slide": 5,
+      "excerpts": [
+        {
+          "id": "linguistic-action",
+          "image": "assets/evidence/linguistic-action.png",
+          "physical_pdf_page": 8,
+          "printed_page": "8",
+          "location": "§2.5 · Eq. (1)",
+          "verified_original_text": "S[Φ] = S0[Φ] + Sint[Φ]",
+          "caption_ja": "言語体系の記述｜式（1）· p.8／対応づけ：§3.1 · p.12",
+          "japanese_explanation": "群場論の作用を自由項と相互作用項に分ける式（1）の原文画像。第12頁§3.1では、この作用を言語体系の記述に用いる。",
+          "crop_coordinates": [
+            252,
+            317,
+            500,
+            338
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.2760009765625,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            992,
+            84
+          ],
+          "image_sha256": "7e00c4c2565e296da0c3cdc18c2b56946c27a1eb6517cb5b9a3a5c4442187f5a",
+          "selection_review": "excerpt_selection.md",
+          "render_background": "transparent; original PDF glyphs retained"
+        },
+        {
+          "id": "linguistic-system",
+          "image": "assets/evidence/linguistic-system.png",
+          "physical_pdf_page": 13,
+          "printed_page": "13",
+          "location": "§3.2 · unnumbered equation",
+          "verified_original_text": "S = Psb(Sunv).",
+          "caption_ja": "個別の言語体系の成立｜§3.2 · p.13（番号なし）",
+          "japanese_explanation": "普遍的な言語体系を表す作用から、対称性の破れを通じて個別の言語体系を表す作用を得る式。作用の空間上の写像である。",
+          "crop_coordinates": [
+            248,
+            221,
+            324,
+            239
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.2760009765625,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            304,
+            72
+          ],
+          "image_sha256": "7c15dd6ffcc67df57acdb912205fa4c0c64ec9c6859ccb26a462c3ac1879f2d2",
+          "selection_review": "excerpt_selection.md",
+          "render_background": "transparent; original PDF glyphs retained"
+        },
+        {
+          "id": "linguistic-syntax",
+          "image": "assets/evidence/linguistic-syntax.png",
+          "physical_pdf_page": 14,
+          "printed_page": "14",
+          "location": "§3.3 · Eq. (22)",
+          "verified_original_text": "syntax structure",
+          "caption_ja": "統語構造の生成｜式（22）· p.14",
+          "japanese_explanation": "生成演算子をフォック真空に作用させ、個々の統語構造を状態として表す式（22）の全文。作用そのものと、状態とを区別する。",
+          "crop_coordinates": [
+            180,
+            580,
+            498,
+            601
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.2760009765625,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1272,
+            84
+          ],
+          "image_sha256": "9f3abddc10e2cdebab5e66171c5cc79acacfc422110194a41d37372e0cdf2bef",
+          "selection_review": "excerpt_selection.md",
+          "render_background": "transparent; original PDF glyphs retained"
+        },
+        {
+          "id": "linguistic-semantics",
+          "image": "assets/evidence/linguistic-semantics.png",
+          "physical_pdf_page": 15,
+          "printed_page": "15",
+          "location": "§3.4 · Eq. (23)",
+          "verified_original_text": "Semantics",
+          "caption_ja": "意味の解釈｜式（23）· p.15",
+          "japanese_explanation": "統語構造の状態と解釈体系に依存する演算子の期待値によって、意味を表す式（23）。解釈体系は生成に用いられた体系と同一とは限らない。",
+          "crop_coordinates": [
+            199,
+            395,
+            474,
+            423
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.2760009765625,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1100,
+            112
+          ],
+          "image_sha256": "62f6e6d8d1880df619dfac95fdd4e25b31d9078c260f11403a45d9ab962bc328",
+          "selection_review": "excerpt_selection.md",
+          "render_background": "transparent; original PDF glyphs retained"
+        }
+      ],
+      "overview_basis": {
+        "type": "editorial arrangement of four independently sourced original equations",
+        "linguistic_mapping": "§3.1, physical PDF page 12",
+        "scope": "General GFT apparatus and the manuscript's proposed linguistic correspondence; not an original single figure or a derivation chain."
+      }
+    },
+    {
+      "id": "subject2026",
+      "key": "huang2026_generative_relational_theory",
+      "title": "Towards a Generative Relational Theory of Subject Formation: A Preliminary Inquiry into Early Development",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "理論研究・プレプリント",
+      "url": "https://works.hcommons.org/records/4e4ne-13w70",
+      "doi": "https://doi.org/10.17613/4e4ne-13w70",
+      "source_file": "meta/assets/publications_pdf/huang2026_generative_relational_theory.pdf",
+      "local_pdf": "assets/papers/subject-formation.pdf",
+      "sha256": "7d24d1c052ece5b3ebf61784b20d3ed8b5c6b238fa1ab683126d26928c02d8c6",
+      "pdf_pages": 18,
+      "first_page_image": "assets/evidence/subject2026-first-page.png",
+      "slide": 7,
+      "excerpts": [
+        {
+          "id": "subject-formation-core",
+          "image": "assets/evidence/subject-formation-core.png",
+          "physical_pdf_page": 3,
+          "printed_page": "3",
+          "location": "§2.1 · core thesis",
+          "verified_original_text": "The subject is generated within relation, and is not prior to it",
+          "caption_ja": "§2.1 · p.3｜関係のなかでの主体形成（命題全体）",
+          "japanese_explanation": "主体が関係のなかで生成され、自己と他者の境界及び関係を再生産する能力が形成されるという中心命題の囲み全体。",
+          "crop_coordinates": [
+            70,
+            501,
+            526,
+            606
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1824,
+            420
+          ],
+          "image_sha256": "eccbe709309a36cca29ce479b3ffd97a25e6fe53c12c389c9fe9a0f7adba6da8",
+          "selection_review": "excerpt_selection.md"
+        },
+        {
+          "id": "subject-definition",
+          "image": "assets/evidence/subject-definition.png",
+          "physical_pdf_page": 4,
+          "printed_page": "4",
+          "location": "§2.2 · definition",
+          "verified_original_text": "Generative Relational Capacity is the capacity to enter, sustain, transform, and reproduce shared relational fields",
+          "caption_ja": "§2.2 · p.4｜生成的関係能力と主体形成の定義",
+          "japanese_explanation": "共有された関係の場への参与を通じて能力が生成し続けることを述べた定義の囲み全体。",
+          "crop_coordinates": [
+            70,
+            541,
+            526,
+            605
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1824,
+            256
+          ],
+          "image_sha256": "a4b9fc657c079b5b342cafe18635402cb7f9984ba5224f3455269b9af17b341a",
+          "selection_review": "excerpt_selection.md"
+        }
+      ]
+    },
+    {
+      "id": "value2026",
+      "key": "huang2026_generative_relational_economics12",
+      "title": "Generative Relational Economics - Chapter 14: Generative Value",
+      "authors": [
+        "Huang, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "公開章稿・プレプリント",
+      "url": "https://works.hcommons.org/records/z7w6x-v3g60",
+      "doi": "https://doi.org/10.17613/z7w6x-v3g60",
+      "source_file": "meta/assets/publications_pdf/huang2026_generative_relational_economics12.pdf",
+      "local_pdf": "assets/papers/generative-value.pdf",
+      "sha256": "29828eb2c3eeb10b0bdc38a55e4a8301a6414a0239dc7978dc94eb27cd3bc98d",
+      "pdf_pages": 165,
+      "first_page_image": "assets/evidence/value2026-first-page.png",
+      "slide": 8,
+      "excerpts": [
+        {
+          "id": "value-measurement",
+          "image": "assets/evidence/value-measurement.png",
+          "physical_pdf_page": 124,
+          "printed_page": "124",
+          "location": "Definition 14.30",
+          "verified_original_text": "Definition 14.30 (Measurement representation)",
+          "caption_ja": "Definition 14.30 · p.124｜測定表現の定義（全文）",
+          "japanese_explanation": "測定表現を数値だけに限定せず、質的・関係的・空間的・時間的な表現を含め、目的及び保持・省略される情報に照らして捉える定義全体。",
+          "crop_coordinates": [
+            75,
+            409,
+            520,
+            515
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1780,
+            424
+          ],
+          "image_sha256": "9ebfac1f18a8603b70079889e605708ed63eac49b44c15f863619954a8910efa",
+          "selection_review": "excerpt_selection.md"
+        },
+        {
+          "id": "value-hospital-example",
+          "image": "assets/evidence/value-hospital-example.png",
+          "physical_pdf_page": 125,
+          "printed_page": "125",
+          "location": "§14.12.1 · final paragraph",
+          "verified_original_text": "A hospital waiting-time indicator can reveal an access bottleneck while omitting care quality or the distribution of delay across patients",
+          "caption_ja": "§14.12.1 · p.125｜病院の例と適用範囲の限定",
+          "japanese_explanation": "病院の待ち時間の説明例を含む段落全体。狭く定めた問いには限定された表現で足りる場合もあるという結句を保持。",
+          "crop_coordinates": [
+            75,
+            632,
+            520,
+            753
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1780,
+            484
+          ],
+          "image_sha256": "a2de2aef625bc392e0385affd8aa9e39497ad8da42b054a87ae983c395876fbf",
+          "selection_review": "excerpt_selection.md"
+        }
+      ]
+    },
+    {
+      "id": "aid2026",
+      "key": "huang2026_aid_dependency_generative",
+      "title": "From Aid Dependency to Generative Reciprocity: Rethinking Development Assistance in a Relational Framework",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "Working Draft・プレプリント",
+      "url": "https://works.hcommons.org/records/p6yaz-6qz86",
+      "doi": "https://doi.org/10.17613/p6yaz-6qz86",
+      "source_file": "meta/assets/publications_pdf/huang2026_aid_dependency_generative.pdf",
+      "local_pdf": "assets/papers/aid-reciprocity.pdf",
+      "sha256": "0ad089a75f664efefa025c00b58b9d8cf6c6c62dec06f8a2357105469a445879",
+      "pdf_pages": 47,
+      "first_page_image": "assets/evidence/aid2026-first-page.png",
+      "slide": 9,
+      "excerpts": [
+        {
+          "id": "aid-no-return",
+          "image": "assets/evidence/aid-no-return.png",
+          "physical_pdf_page": 29,
+          "printed_page": "29",
+          "location": "Claim 8.2",
+          "verified_original_text": "Receipt of support establishes no obligation of return running to the supplying party",
+          "caption_ja": "Claim 8.2 · p.29｜受援と返礼義務の区別（全文）",
+          "japanese_explanation": "受援が提供者への返礼義務を生まないことと、価値生成及び支援の権利の区別を述べる論断全体。",
+          "crop_coordinates": [
+            109,
+            371,
+            514,
+            438
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1620,
+            268
+          ],
+          "image_sha256": "62935df6fa810b63ff58ae61557f8de30419a13d82b19c3af0923fef945314cd",
+          "selection_review": "excerpt_selection.md"
+        },
+        {
+          "id": "aid-dignity",
+          "image": "assets/evidence/aid-dignity.png",
+          "physical_pdf_page": 31,
+          "printed_page": "31",
+          "location": "Constraint 8.5",
+          "verified_original_text": "Protection of dignity holds prior to every generative accounting",
+          "caption_ja": "Constraint 8.5 · p.31｜尊厳を守る制約（全文）",
+          "japanese_explanation": "尊厳の保護をあらゆる生成性の評価に先立たせ、その結果にかかわらず維持する制約の全文。",
+          "crop_coordinates": [
+            109,
+            212,
+            514,
+            259
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1620,
+            188
+          ],
+          "image_sha256": "147e46510b9e6d077f729f04f3b76d7868d1f472d6506649a9886a58bc7ad329",
+          "selection_review": "excerpt_selection.md"
+        }
+      ]
+    },
+    {
+      "id": "humanitarian2026",
+      "key": "huang2026_emergence_humanitarian_obligation",
+      "title": "The Emergence of Humanitarian Obligation: Recognition, Norm Formation, and Relational Responsibility",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "DRAFT・プレプリント",
+      "url": "https://works.hcommons.org/records/rdh4m-a2259",
+      "doi": "https://doi.org/10.17613/rdh4m-a2259",
+      "source_file": "meta/assets/publications_pdf/huang2026_emergence_humanitarian_obligation.pdf",
+      "local_pdf": "assets/papers/humanitarian-obligation.pdf",
+      "sha256": "f17a6de9728e25e766daae875b2c15b349bd62e640280262a86d8d48a49ea76e",
+      "pdf_pages": 61,
+      "first_page_image": "assets/evidence/humanitarian2026-first-page.png",
+      "slide": 10,
+      "excerpts": [
+        {
+          "id": "humanitarian-concern",
+          "image": "assets/evidence/humanitarian-concern.png",
+          "physical_pdf_page": 12,
+          "printed_page": "12",
+          "location": "§3.3 · pathway and qualification",
+          "verified_original_text": "One possible pathway runs from aesthetic or evaluative significance to practical salience",
+          "caption_ja": "§3.3 · p.12｜関心・保護への志向が生まれる一つの経路",
+          "japanese_explanation": "可能な経路の記述と、それを必然的な順序とはしない段落全体を連続して抜粋。関心が生まれる他の経路も保持。",
+          "crop_coordinates": [
+            69,
+            454,
+            545,
+            562
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1904,
+            432
+          ],
+          "image_sha256": "4e55e2c22768d5f4a0174a48222f569c1d2f468413a297c0a937c86528af3c1f",
+          "selection_review": "excerpt_selection.md"
+        },
+        {
+          "id": "humanitarian-distinction",
+          "image": "assets/evidence/humanitarian-distinction.png",
+          "physical_pdf_page": 48,
+          "printed_page": "48",
+          "location": "§13.1 · first paragraph",
+          "verified_original_text": "Such a genealogy can help explain why the norm came to matter. It does not settle whether the norm ought to govern conduct",
+          "caption_ja": "§13.1 · p.48｜規範の生成と正当化の区別",
+          "japanese_explanation": "節見出しと第一段落全体。美的・評価的な経験から規範形成へ至る可能な過程と、その説明だけでは正当化できないという限定を共に示す。",
+          "crop_coordinates": [
+            69,
+            534,
+            535,
+            655
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            595.280029296875,
+            841.8900146484375
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1864,
+            484
+          ],
+          "image_sha256": "d94af6dab991ab73543fb6ef8ecad1fde64c9b004a47148375181e1fb6802c6b",
+          "selection_review": "excerpt_selection.md"
+        }
+      ]
+    },
+    {
+      "id": "law2026",
+      "key": "huang2026_recordability_limits_juridical",
+      "title": "Recordability and the Limits of Juridical Translation: A Preliminary Discussion of Generative Conditions in Legal Form",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "研究草稿・プレプリント",
+      "url": "https://works.hcommons.org/records/asgwn-yzp89",
+      "doi": "https://doi.org/10.17613/asgwn-yzp89",
+      "source_file": "meta/assets/publications_pdf/huang2026_recordability_limits_juridical.pdf",
+      "local_pdf": "assets/papers/juridical-translation.pdf",
+      "sha256": "537240ca4e959679242e9181fee702869e28253d9e9ecc6b98935e1783d81974",
+      "pdf_pages": 34,
+      "first_page_image": "assets/evidence/law2026-first-page.png",
+      "slide": 11,
+      "excerpts": [
+        {
+          "id": "juridical-table",
+          "image": "assets/evidence/juridical-table.png",
+          "physical_pdf_page": 19,
+          "printed_page": "19",
+          "location": "Table 1",
+          "verified_original_text": "Sites of recognition failure",
+          "caption_ja": "Table 1 · p.19｜外部からの記録可能性（全五項目）",
+          "japanese_explanation": "表題、三列の見出し、Institutional／Interpretive／Categorial／Cognitive／Symbolicの全五項目を保持した原表。",
+          "crop_coordinates": [
+            90,
+            79,
+            521,
+            304
+          ],
+          "coordinate_system": "pdf_points_top_left",
+          "render_scale": 4,
+          "source_page_size_points": [
+            612.0,
+            792.0
+          ],
+          "trimmed_bottom_pixels": 0,
+          "image_dimensions": [
+            1724,
+            900
+          ],
+          "image_sha256": "2f7c0ba112eb15045c19ca47066bb76826f6fd22e35d174746266f12e26603e5",
+          "selection_review": "excerpt_selection.md"
+        }
+      ]
+    },
+    {
+      "id": "relation2026",
+      "key": "huang2026_rethinking_relation_generative",
+      "title": "Rethinking Relation in a Generative Relational Framework",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "研究草稿・プレプリント",
+      "url": "https://works.hcommons.org/records/9e0hp-9hh48",
+      "doi": "https://doi.org/10.17613/9e0hp-9hh48",
+      "source_file": "meta/assets/publications_pdf/huang2026_rethinking_relation_generative.pdf",
+      "local_pdf": "assets/papers/rethinking-relation.pdf",
+      "sha256": "ecd88c269ab9581d2be8f6aa8a1c36d1b9bb387584951875a1aa001aca6e3531",
+      "pdf_pages": 78,
+      "first_page_image": "assets/evidence/relation2026-first-page.png",
+      "slide": 7,
+      "excerpts": []
+    },
+    {
+      "id": "crises2025",
+      "key": "huang2025_responding_crises_symbol2",
+      "title": "Responding to the Crises of Symbol and Subject in Modernity: Towards a Generative Nomos of Relational Presence",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2025,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "理論研究・プレプリント",
+      "url": "https://doi.org/10.31235/osf.io/q3ecy_v1",
+      "doi": "10.31235/osf.io/q3ecy_v1",
+      "source_file": "meta/assets/publications_pdf/huang2025_responding_crises_symbol2.pdf",
+      "local_pdf": "assets/papers/crises-symbol-subject.pdf",
+      "sha256": "2b6fea9e2f417eaf07ced008c974f34225d114e23295e325bba35e0ccbc9e92f",
+      "pdf_pages": 15,
+      "first_page_image": "assets/evidence/crises2025-first-page.png",
+      "first_page_image_dimensions": [
+        893,
+        1263
+      ],
+      "first_page_image_sha256": "b4a00b6f0d2b90d7af6c0072e3eb0fb09e545f6da46dea67eeb04723c1322ba1",
+      "slide": 3,
+      "excerpts": [],
+      "cited_physical_pdf_pages": [
+        1,
+        2,
+        7,
+        8
+      ],
+      "cited_location": "Abstract / Introduction; The Duel Crises and Their Dialectical Relation; The Modern Symbolic Crisis: A Multi Dimensional Analysis",
+      "japanese_explanation": "主体と記号の危機の相互形成を論じ、意味の空洞化、相互承認の困難、主体の疎外、認識や感情の変容を含む多面的な問題として考察しています。",
+      "claim_qualification": "本人の哲学的診断として参照しています。信頼の低下は一つの現れであり、危機全体の定義ではありません。誌面の投稿用テンプレートは掲載・採択・査読済みを示しません。",
+      "title_note": "Display title matches local PDF; older catalogue source_titles retain Relational Ontology. SAGE template and placeholder DOI do not establish journal acceptance or publication."
+    },
+    {
+      "id": "diagnosticity2026",
+      "key": "huang2026_symbolic_diagnosticity_symbol",
+      "title": "Symbolic Diagnosticity under Symbol Inflation",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "Working Paper・プレプリント",
+      "url": "https://works.hcommons.org/records/mtw3q-adx77",
+      "doi": "https://doi.org/10.17613/mtw3q-adx77",
+      "source_file": "meta/assets/publications_pdf/huang2026_symbolic_diagnosticity_symbol.pdf",
+      "local_pdf": "assets/papers/symbolic-diagnosticity.pdf",
+      "sha256": "fddaeaeced05f21f9eacd6eed3ba14dcecb0779878142e5e10cd424fde070aa6",
+      "pdf_pages": 124,
+      "first_page_image": "assets/evidence/diagnosticity2026-first-page.png",
+      "first_page_image_dimensions": [
+        893,
+        1263
+      ],
+      "first_page_image_sha256": "5afdc57897c4a2f8f765a4b2b35476032b9aa2ebb6821f3cd6a00b9f6fbe9a7a",
+      "slide": 3,
+      "excerpts": [],
+      "cited_physical_pdf_pages": [
+        1,
+        2,
+        3
+      ],
+      "cited_location": "Abstract / Discussion Paper Note",
+      "japanese_explanation": "記号表現から生成の過程や関与を推し量る条件の変化を検討し、コミュニケーション、主体の関与、文化的・社会的価値にも議論を広げています。",
+      "claim_qualification": "本稿の診断的失配という限定的な問題設定を、主体の疎外などを含む記号危機全体の定義に置き換えていません。生成AIは加速要因の一つです。"
+    },
+    {
+      "id": "judgment2026",
+      "key": "huang2026_reflections_judgment_age",
+      "title": "Reflections on Judgment in the Age of AI: Problem Formation, Aesthetic Judgment, and the Education of Judgment",
+      "authors": [
+        "HUANG, Wanhong"
+      ],
+      "year": 2026,
+      "status": "preprint",
+      "peer_reviewed": false,
+      "display_status": "哲学的エッセイ・プレプリント",
+      "url": "https://works.hcommons.org/records/kg69d-cdm54",
+      "doi": "https://doi.org/10.17613/kg69d-cdm54",
+      "source_file": "meta/assets/publications_pdf/huang2026_reflections_judgment_age.pdf",
+      "local_pdf": "assets/papers/judgment-ai.pdf",
+      "sha256": "1c6391d0a09695a73224896162e0b36c9ee08ed04a98d363f253dc41d2cd1c1e",
+      "pdf_pages": 20,
+      "first_page_image": "assets/evidence/judgment2026-first-page.png",
+      "first_page_image_dimensions": [
+        893,
+        1263
+      ],
+      "first_page_image_sha256": "acfad9e178b098686ca77938f56bfcbffb798b55942f16007b8dbf48e6e215fe",
+      "slide": 3,
+      "excerpts": [],
+      "cited_physical_pdf_pages": [
+        6,
+        7,
+        8,
+        9
+      ],
+      "cited_location": "Sections 3–4 opening, especially §3.3 Beauty before Full Symbolization",
+      "japanese_explanation": "既成の規則に尽くされない反省的判断、美の経験と言語化の順序、言葉に尽くされない審美的経験、および複数の判断のあり方を論じています。",
+      "claim_qualification": "判断を規範判断や明示的な基準の適用に限定していません。生成性・関係性・個々の存在への判断は本人の今回の説明に基づく射程であり、この論考に確立した分類があるという主張ではありません。"
+    }
+  ]
+}

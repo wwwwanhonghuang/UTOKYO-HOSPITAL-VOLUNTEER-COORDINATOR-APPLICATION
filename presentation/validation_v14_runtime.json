@@ -1,0 +1,30 @@
+{
+  "slide_count": 18,
+  "speaker_notes_count": 18,
+  "title_count": 18,
+  "deck_state": {
+    "slide": 1,
+    "fragment": 0,
+    "fragments": 0,
+    "total": 18,
+    "notesOpen": false
+  },
+  "console_errors": [],
+  "failed_runtime_requests": [],
+  "overflow_issues": [],
+  "rhetoric_scan": {
+    "negation_reversal": 0,
+    "jp_question_mark": 0
+  },
+  "mobile_fit": {
+    "viewport": [
+      390,
+      788
+    ],
+    "stage": [
+      390,
+      219.375
+    ],
+    "scale": "0.3046875"
+  }
+}

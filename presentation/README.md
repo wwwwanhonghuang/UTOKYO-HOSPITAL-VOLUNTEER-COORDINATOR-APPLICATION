@@ -1,12 +1,15 @@
-# 东大医院申请演示：模板与结构提案
+# Hospital Deck V17
 
-本轮范围：取回参考模板，阅读其结构，提出逐页设计大纲。尚未制作东大医院演示页面。
+Current 17-page presentation source.
 
-- 原始参考页面：https://huang-wanhong.com/ncc-sap/slide/
-- [本地模板](reference-template/index.html)
-- [来源和校验记录](template_source.json)
-- [演示策略与逐页大纲](presentation_outline_zh.md)
+Key V17 revisions:
+- P2: corrected 脳波解析 terminology.
+- P4: separates aesthetic judgment as pre-discursive life orientation from normative justification.
+- P5: equations rendered from actual LaTeX to SVG; method wording revised around historical/relational conditions and generative structure.
+- P6: explicit bridge between the Laozi quotation and the historical/relational/generative view of scholarship.
 
-已取回原站的 `index.html`、`assets/css/style.css` 和 `assets/js/deck.js`，保存原始字节。模板为１８页、１２８０×７２０的静态演示，支持逐步显现、键盘导航、点击翻页、页码和全屏。字体仍引用原站使用的 Google Fonts；它目前是参考源码快照，后续制作离线演示时再将所需字体本地化。
-
-这个目录与申请材料解压目录相互独立。原 ZIP、六份已解压申请文件和 `planning.md` 均不作修改。参考模板中的 NCC SAP 岗位、机构、旧联系方式和旧研究表述，仅保留为原始参考内容，不作为本次申请事实来源。
+Files:
+- `index.html` — interactive deck
+- `slides.pdf` — rendered PDF
+- `speaker_script.md` — Japanese script with Chinese parallel text
+- `preview/contact-sheet.jpg` — overview

@@ -1,0 +1,306 @@
+/* Fourth edition: descriptive titles and explicit reasoning, in the existing palette. */
+.title-content h1{font-size:56px;letter-spacing:.025em}
+.title-subtitle{font-size:23px;letter-spacing:.055em}
+.choice-page .head h2{font-size:36px;font-weight:500}
+.choice-analysis{display:flex;flex-direction:column;gap:31px}
+.choice-analysis>div{display:grid;grid-template-columns:195px 1fr;gap:38px;align-items:baseline}
+.choice-analysis dt{font-size:17px;line-height:1.9;color:var(--muted)}
+.choice-analysis dd{font-size:25px;line-height:1.85}
+.method-maxim{font-size:16px;line-height:1.8;color:var(--muted);margin-top:12px}
+.evidence-methods .method-shortlist{margin-top:18px;gap:10px}
+.evidence-methods .evidence-explanation{margin-top:18px}
+.concept-definition{display:inline-block;font-size:24px;line-height:1.9;margin-top:12px}
+.application-reason{font-size:20px;line-height:1.9;margin-top:24px}
+.hospital-page .large-thought{font-size:27px;line-height:1.85}
+.hospital-page .experience-note{margin-top:25px}
+.future-page .head h2{font-size:32px}
+.ngo-reading h3{font-size:26px}
+.ngo-reason{font-size:23px}
+.closing-page .head{margin-bottom:26px}
+.closing-page .body{padding-left:0;padding-bottom:0}
+.closing-quotation blockquote{font-size:51px;letter-spacing:.08em}
+.closing-thought{font-size:23px;line-height:2;letter-spacing:0;margin-top:31px}
+.closing-signature{font-size:21px;margin-top:25px}
+
+/* P3: three connected diagnoses, with manuscript references. */
+#slide-3 .head{margin-bottom:23px}
+#slide-3 .body{justify-content:flex-start;padding-top:6px}
+#slide-3 .preface{font-size:17px;line-height:1.8;margin-bottom:23px}
+#slide-3 .question-lines{gap:20px}
+#slide-3 .question-lines h3{font-size:26px;line-height:1.5}
+#slide-3 .question-lines p{font-size:18px;line-height:1.7;margin-top:5px;color:var(--ink)}
+#slide-3 .ordinal{line-height:2.4}
+#slide-3 .crisis-sources{font-size:11px;line-height:1.8;bottom:61px}
+
+/* Brief classifications of the personal choice, and an open life project. */
+.judgment-parenthesis{font-size:16px;color:var(--muted);white-space:nowrap}
+#slide-14 .head h2{font-size:34px}
+#slide-14 .head{margin-bottom:31px}
+#slide-14 .body{padding-top:0;justify-content:flex-start}
+.future-creation-spread{display:grid;grid-template-columns:1.12fr 1fr;gap:58px;align-items:start}
+.creation-directions{display:flex;flex-direction:column;gap:27px}
+.creation-directions dt{font-size:25px;line-height:1.6;color:var(--rose)}
+.creation-directions dd{font-size:19px;line-height:1.95;margin-top:7px}
+.practice-ground h3{font-size:23px;line-height:1.7}
+.practice-ground .organization{font-size:14px;margin-top:5px}
+.practice-ground .ground-reason{font-size:19px;line-height:1.95;margin-top:19px}
+.ground-state{margin-top:20px}
+.ground-state h4{font-size:14px;line-height:1.7;font-weight:400;color:var(--muted);margin:0 0 4px}
+.ground-state p{font-size:17px;line-height:1.9}
+
+/* P5: an editorial outline using four unaltered manuscript equations. */
+.formalism-page .formalism-intro{font-size:15px;line-height:1.6;color:var(--muted);margin:9px 0 14px}
+.formalism-outline{display:flex;flex-direction:column;gap:10px}
+.formalism-page .formalism-row+.formalism-row{margin-top:0}
+.formalism-page .formalism-row figcaption{margin:0 0 5px;align-items:baseline}
+.formalism-page .formalism-row figcaption>span{font-family:Deck Serif,serif;font-size:17px;line-height:1.6;color:var(--ink)}
+.formalism-page .formalism-row figcaption>a{font-size:11px;color:var(--muted)}
+.formalism-page .formalism-row button{background:transparent}
+.formalism-page .formalism-row img{max-width:100%;height:auto;max-height:none;margin:0 auto}
+.formalism-page .formalism-note{font-size:14px;line-height:1.7;margin-top:12px;color:var(--ink)}
+.formalism-page .formalism-provenance{font-family:Deck Sans,sans-serif;font-size:11px;line-height:1.7;margin-top:3px;color:var(--muted)}
+
+/* Eleventh edition: identity, grounded career choice, recordability, and entry-method page. */
+.title-identity-ja{font-family:Deck Serif,Deck Chinese,serif;font-size:18px;color:var(--ink);letter-spacing:.06em}
+.title-identity-en{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:12px;color:var(--muted);letter-spacing:.035em}
+
+#slide-4 .body{justify-content:flex-start;padding-top:20px}
+#slide-4 .choice-analysis{gap:28px}
+#slide-4 .choice-analysis dd{font-size:24px}
+.choice-evidence{margin-top:36px;padding-top:18px;border-top:1px solid var(--line);font-family:Deck Sans,Deck Chinese,sans-serif;font-size:12px;line-height:1.9;color:var(--muted)}
+.choice-evidence a{color:var(--rose)}
+
+/* P11: the left column now follows all five categories in Table 1. */
+#slide-11 .evidence-layout{grid-template-columns:455px 615px;gap:45px;align-items:start}
+#slide-11 .evidence-argument{padding-top:4px}
+#slide-11 .evidence-thought{font-size:25px;line-height:1.72}
+.recordability-lead{font-size:13px;line-height:1.7;color:var(--muted);margin-top:13px}
+.recordability-spectrum{margin-top:16px}
+.recordability-spectrum>div{padding:8px 0 9px;border-top:1px solid var(--line)}
+.recordability-spectrum>div:last-child{border-bottom:1px solid var(--line)}
+.recordability-spectrum dt{display:grid;grid-template-columns:28px 90px 1fr;gap:7px;align-items:baseline;line-height:1.45}
+.recordability-spectrum dd{font-size:12.5px;line-height:1.55;color:var(--muted);margin:4px 0 0 35px}
+.record-index{font-family:Deck Sans,sans-serif;font-size:11px;color:var(--rose);letter-spacing:.08em}
+.record-name{font-size:16px;color:var(--ink)}
+.record-level{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;color:var(--muted);text-align:right}
+.recordability-conclusion{font-size:15px;line-height:1.7;margin-top:15px;color:var(--ink)}
+#slide-11 .paper-heading{margin-top:2px}
+#slide-11 .paper-figure img{max-height:340px}
+
+/* New practical-method page: a scholarly six-part analytical order, not a business flowchart. */
+.practice-method-page .head{margin-bottom:22px}
+.practice-method-page .body{justify-content:flex-start;padding-top:2px}
+.practice-method-preface{font-size:20px;line-height:1.8;color:var(--ink);margin-bottom:24px}
+.practice-method-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:58px;row-gap:0;border-top:1px solid var(--line)}
+.practice-method-grid>div{display:grid;grid-template-columns:33px 138px 1fr;gap:12px;align-items:start;padding:15px 0 16px;border-bottom:1px solid var(--line)}
+.method-no{font-family:Deck Sans,sans-serif;font-size:12px;color:var(--rose);letter-spacing:.08em;padding-top:4px}
+.practice-method-grid h3{font-size:19px;line-height:1.55;font-weight:400;color:var(--rose)}
+.practice-method-grid p{font-size:14px;line-height:1.72;color:var(--ink)}
+.practice-method-closing{font-size:16px;line-height:1.75;margin-top:20px;color:var(--muted)}
+
+/* Renumbered future and closing pages. */
+#slide-17 .head h2{font-size:34px}
+#slide-17 .head{margin-bottom:31px}
+#slide-17 .body{padding-top:0;justify-content:flex-start}
+#slide-18 .closing-quotation blockquote{font-size:49px;line-height:1.75;letter-spacing:.02em}
+
+
+/* Twelfth edition: role values and research questions. */
+.role-values-page .head,.role-research-page .head{margin-bottom:25px}
+.role-values-page .body,.role-research-page .body{justify-content:flex-start;padding-top:0}
+.role-values-thesis{font-size:23px;line-height:1.85;max-width:1025px;margin-bottom:22px;color:var(--ink)}
+.role-values-list{border-top:1px solid var(--line)}
+.role-values-list>div{display:grid;grid-template-columns:210px 1fr;gap:32px;padding:13px 0 14px;border-bottom:1px solid var(--line);align-items:start}
+.role-values-list dt{font-size:19px;line-height:1.55;color:var(--rose)}
+.role-values-list dt span{display:inline-block;width:30px;font-family:Deck Sans,sans-serif;font-size:11px;color:var(--muted);letter-spacing:.08em}
+.role-values-list dd{font-size:15px;line-height:1.7;color:var(--ink)}
+.value-circulation-line{display:flex;justify-content:center;align-items:center;gap:18px;margin-top:18px;font-size:17px;line-height:1.6;color:var(--rose);letter-spacing:.02em}
+.value-circulation-line b{font-weight:400;color:var(--line)}
+.role-values-source,.role-research-source{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:10.5px;line-height:1.6;color:var(--muted);margin-top:10px}
+
+.role-research-preface{font-size:20px;line-height:1.8;margin-bottom:20px;color:var(--ink)}
+.role-research-grid{display:grid;grid-template-columns:1fr 1fr;column-gap:56px;border-top:1px solid var(--line)}
+.role-research-grid article{position:relative;padding:14px 0 15px 39px;border-bottom:1px solid var(--line);min-height:92px}
+.role-research-grid article.wide{grid-column:1 / -1;min-height:82px}
+.research-no{position:absolute;left:0;top:17px;font-family:Deck Sans,sans-serif;font-size:11px;line-height:1.3;letter-spacing:.08em;color:var(--rose)}
+.role-research-grid h3{font-size:19px;line-height:1.55;color:var(--rose);font-weight:400}
+.role-research-grid article>p:not(.research-no){font-size:14px;line-height:1.7;margin-top:5px;color:var(--ink)}
+.research-boundary{display:grid;grid-template-columns:105px 1fr;gap:22px;align-items:start;margin-top:18px;padding-top:13px;border-top:1px solid var(--line)}
+.research-boundary span{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;line-height:1.6;color:var(--muted);letter-spacing:.04em}
+.research-boundary p{font-size:13px;line-height:1.75;color:var(--muted)}
+
+
+/* Thirteenth edition: remove editorial/meta-language from audience-facing slides. */
+#slide-5 .method-shortlist{margin-top:17px}
+#slide-16 .role-research-grid{margin-top:4px}
+#slide-16 .role-research-source{margin-top:18px}
+
+/* V14: P3 direct research problems, P5 explicit scholarly method, P8 GRE process view. */
+#slide-3 .preface{font-size:17.5px;line-height:1.8;max-width:1040px}
+#slide-3 .question-lines{gap:21px}
+#slide-3 .question-lines h3{font-size:26px;letter-spacing:.025em}
+#slide-3 .question-lines p{font-size:17.5px;line-height:1.7}
+#slide-3 .crisis-sources{font-size:10.5px;line-height:1.65}
+
+#slide-5 .body{justify-content:flex-start;padding-top:0}
+.method-view-layout{display:grid;grid-template-columns:515px 555px;gap:50px;align-items:start;width:100%}
+.method-view-main{padding-top:3px}
+.method-epigraph{font-family:Deck Serif,Deck Chinese,serif;font-size:21px;line-height:1.8;color:var(--rose);letter-spacing:.04em;margin-bottom:16px}
+.method-thesis{font-family:Deck Serif,Deck Chinese,serif;font-size:27px;line-height:1.75;color:var(--ink);margin-bottom:22px}
+.method-principles{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.method-principles li{display:grid;grid-template-columns:32px 1fr;gap:12px;padding-top:10px;border-top:1px solid var(--line)}
+.method-principles li>span{font-family:Deck Sans,sans-serif;font-size:11px;color:var(--rose);letter-spacing:.1em;line-height:2}
+.method-principles h3{font-size:18px;line-height:1.55;font-weight:500;margin:0}
+.method-principles p{font-size:15px;line-height:1.72;color:var(--muted);margin-top:4px}
+.method-example{padding-left:23px;border-left:1px solid var(--line)}
+.method-example-label{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:12px;letter-spacing:.08em;color:var(--rose);margin-bottom:8px}
+.method-example .paper-heading{margin-bottom:9px}
+.method-example .paper-heading h3{font-size:17px}
+.method-example-intro{font-size:13.5px;line-height:1.75;color:var(--ink);margin-bottom:12px}
+.method-example-intro strong{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;letter-spacing:.04em;color:var(--muted);font-weight:500}
+.method-example-figures{display:flex;flex-direction:column;gap:10px}
+.method-example .paper-figure img{max-height:115px;object-fit:contain;object-position:left center;background:#fff}
+.method-example .paper-figure figcaption{margin-top:3px}
+.method-example-note{font-size:12.5px;line-height:1.7;color:var(--muted);margin-top:10px}
+
+#slide-8 .head h2{font-size:31px}
+#slide-8 .evidence-layout{grid-template-columns:430px 640px;gap:48px;align-items:start}
+#slide-8 .evidence-argument{padding-top:5px}
+#slide-8 .evidence-thought{font-size:25px;line-height:1.75}
+.gre-process-list{margin-top:22px}
+.gre-process-list>div{display:grid;grid-template-columns:74px 1fr;gap:13px;padding:10px 0;border-top:1px solid var(--line)}
+.gre-process-list>div:last-child{border-bottom:1px solid var(--line)}
+.gre-process-list dt{font-size:17px;line-height:1.6;color:var(--rose)}
+.gre-process-list dd{font-size:14px;line-height:1.7;color:var(--ink)}
+.gre-measure-note{font-size:13px;line-height:1.7;color:var(--muted);margin-top:16px}
+.gre-process-page .paper-heading{margin-bottom:8px}
+.gre-process-page .paper-heading h3{font-size:16px}
+.gre-process-page .gre-figure+.gre-figure{margin-top:10px}
+.gre-process-page .gre-figure img{max-height:195px;object-fit:contain;object-position:left top;background:#fff}
+.gre-process-page .gre-figure figcaption{font-size:10.5px;margin-top:3px}
+
+/* V15: historical conditions, aesthetic life choice, restored formalism example, and GRE circulation diagram. */
+.era-conditions-page .head{margin-bottom:28px}
+.era-conditions-page .body{justify-content:flex-start;padding-top:6px}
+.era-preface{font-size:22px;line-height:1.85;max-width:1040px;margin-bottom:34px}
+.era-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px;border-top:1px solid var(--line)}
+.era-grid article{padding:23px 6px 0 0;min-height:225px}
+.era-grid article+article{border-left:1px solid var(--line);padding-left:28px}
+.era-no{font-family:Deck Sans,sans-serif;font-size:11px;letter-spacing:.1em;color:var(--rose);margin-bottom:13px}
+.era-grid h3{font-size:27px;line-height:1.55;color:var(--rose);font-weight:400;margin-bottom:13px}
+.era-grid article>p:last-child{font-size:17px;line-height:1.78;color:var(--ink)}
+.era-closing{font-size:18px;line-height:1.8;margin-top:28px;color:var(--muted)}
+
+.life-choice-page .head{margin-bottom:24px}
+.life-choice-page .body{justify-content:flex-start;padding-top:3px}
+.life-choice-layout{display:grid;grid-template-columns:1.02fr .98fr;gap:70px;align-items:start}
+.life-choice-quote{font-size:29px;line-height:2.05;color:var(--ink);letter-spacing:.02em}
+.life-choice-center{margin-top:32px;padding-top:18px;border-top:1px solid var(--line);font-size:18px;line-height:1.8}
+.life-choice-center span{display:block;font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;letter-spacing:.08em;color:var(--rose);margin-bottom:5px}
+.judgment-pair{border-top:1px solid var(--line)}
+.judgment-pair article{padding:17px 0 18px;border-bottom:1px solid var(--line)}
+.judgment-pair article.judgment-primary{border-left:3px solid var(--rose);padding-left:18px}
+.judgment-label{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;letter-spacing:.08em;color:var(--rose);margin-bottom:6px}
+.judgment-pair h3{font-size:20px;line-height:1.6;font-weight:400;color:var(--ink)}
+.judgment-pair article p:last-child{font-size:14.5px;line-height:1.72;color:var(--muted);margin-top:5px}
+.judgment-position{font-size:15px;line-height:1.75;color:var(--rose);margin-top:16px}
+.life-choice-method{font-size:16px;line-height:1.8;color:var(--muted);margin-top:28px;padding-top:16px;border-top:1px solid var(--line)}
+
+#slide-5 .evidence-layout{grid-template-columns:420px 650px;gap:58px;align-items:start}
+#slide-5 .evidence-argument{padding-top:3px}
+#slide-5 .evidence-thought{font-size:27px;line-height:1.82;color:var(--rose)}
+.method-core{font-size:22px;line-height:1.8;margin-top:18px;color:var(--ink)}
+.method-steps{margin-top:21px;border-top:1px solid var(--line)}
+.method-steps>div{display:grid;grid-template-columns:28px 1fr;gap:12px;padding:11px 0 12px;border-bottom:1px solid var(--line)}
+.method-steps dt{font-family:Deck Sans,sans-serif;font-size:11px;letter-spacing:.08em;color:var(--rose);padding-top:4px}
+.method-steps dd strong{display:block;font-size:17px;line-height:1.55;font-weight:400;color:var(--ink)}
+.method-steps dd span{display:block;font-size:12.5px;line-height:1.65;color:var(--muted);margin-top:2px}
+.method-view-conclusion{font-size:14px;line-height:1.7;color:var(--muted);margin-top:15px}
+.method-example-label-v15{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;letter-spacing:.08em;color:var(--rose);margin-bottom:6px}
+#slide-5 .paper-heading{margin-bottom:8px}
+#slide-5 .paper-heading h3{font-size:16px}
+#slide-5 .formalism-outline{gap:6px}
+#slide-5 .formalism-row figcaption{margin-bottom:2px}
+#slide-5 .formalism-row figcaption>span{font-size:14px}
+#slide-5 .formalism-row figcaption>a{font-size:9.5px}
+#slide-5 .formalism-row img{max-height:72px!important;width:auto!important;max-width:100%!important;object-fit:contain;object-position:left center}
+#slide-5 .formalism-note{font-size:11.5px;line-height:1.55;margin-top:7px}
+#slide-5 .formalism-provenance{font-size:10px;line-height:1.5;margin-top:2px}
+
+.gre-cycle-page .head{margin-bottom:27px}
+.gre-cycle-page .body{justify-content:flex-start;padding-top:3px}
+.gre-cycle-thesis{font-size:23px;line-height:1.85;max-width:1040px;margin-bottom:34px}
+.gre-cycle-flow{display:grid;grid-template-columns:1fr 32px 1fr 32px 1fr 32px 1fr;align-items:stretch;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.gre-cycle-flow article{padding:22px 16px 24px 0;min-height:185px}
+.gre-cycle-flow article:not(:first-child){padding-left:14px}
+.gre-cycle-no{font-family:Deck Sans,sans-serif;font-size:10px;letter-spacing:.1em;color:var(--rose);margin-bottom:9px}
+.gre-cycle-flow h3{font-size:23px;line-height:1.55;color:var(--rose);font-weight:400;margin-bottom:11px}
+.gre-cycle-flow article>p:last-child{font-size:14.5px;line-height:1.75;color:var(--ink)}
+.gre-arrow{display:flex;align-items:center;justify-content:center;font-size:24px;color:var(--pink)}
+.gre-return{display:grid;grid-template-columns:95px 1fr;gap:18px;align-items:baseline;margin-top:24px;padding:15px 0;border-bottom:1px solid var(--line)}
+.gre-return span,.gre-focus span{font-family:Deck Sans,Deck Chinese,sans-serif;font-size:11px;letter-spacing:.08em;color:var(--rose)}
+.gre-return p{font-size:17px;line-height:1.7;color:var(--ink)}
+.gre-focus{display:grid;grid-template-columns:95px 1fr;gap:18px;align-items:baseline;padding-top:14px}
+.gre-focus p{font-size:13.5px;line-height:1.7;color:var(--muted)}
+
+/* After removing the former '職務に関連する経験' slide, future/closing IDs shift by one. */
+#slide-16 .head h2{font-size:34px}
+#slide-16 .head{margin-bottom:31px}
+#slide-16 .body{padding-top:0;justify-content:flex-start}
+#slide-17 .closing-quotation blockquote{font-size:49px;line-height:1.75;letter-spacing:.02em}
+
+
+/* V16: refine method page formula rendering and clarify slide 6 bridge */
+#slide-5 .formalism-row .formalism-eq{display:flex;align-items:center;justify-content:flex-start;min-height:60px;padding:2px 4px 1px 0}
+#slide-5 .formalism-row .math-display{display:block;font-family:"Times New Roman",Deck Serif,serif;font-style:italic;color:var(--ink);letter-spacing:0;white-space:nowrap}
+#slide-5 .formalism-row .math-display sub,#slide-5 .formalism-row .math-display sup{font-style:normal;font-size:0.65em;line-height:0}
+#slide-5 .formalism-row .eq-1 .math-display{font-size:29px}
+#slide-5 .formalism-row .eq-2 .math-display{font-size:34px}
+#slide-5 .formalism-row .eq-3 .math-display{font-size:21px}
+#slide-5 .formalism-row .eq-4 .math-display{font-size:23px}
+#slide-5 .formalism-note{margin-top:5px}
+#slide-6 .classical-bridge{margin-top:16px;font-size:16px;line-height:1.8;color:var(--ink)}
+
+#slide-5 .source{font-size:10px;line-height:1.45;bottom:56px;left:92px;right:92px}
+
+#slide-5 .method-view-conclusion{font-size:13px;line-height:1.55;color:var(--muted);margin-top:10px}
+
+/* V17: aesthetic/normative distinction, true TeX equations, and explicit P6 bridge. */
+#slide-4 .body{justify-content:flex-start;padding-top:8px}
+#slide-4 .life-judgment-intro{max-width:940px;margin:8px auto 30px;text-align:center}
+#slide-4 .life-judgment-intro p{font-family:Deck Serif,serif;font-size:29px;line-height:1.8;color:var(--rose)}
+#slide-4 .life-judgment-grid{display:grid;grid-template-columns:1fr 1fr;gap:46px;margin:0 26px}
+#slide-4 .life-judgment-grid article{padding:24px 28px 22px;border-top:1px solid var(--line)}
+#slide-4 .judgment-label{font-family:Deck Sans,sans-serif;font-size:13px;letter-spacing:.08em;color:var(--rose);margin-bottom:10px}
+#slide-4 .life-judgment-grid h3{font-family:Deck Serif,serif;font-size:22px;line-height:1.65;font-weight:400;color:var(--ink);margin-bottom:10px}
+#slide-4 .life-judgment-grid article>p:last-child{font-size:15px;line-height:1.8;color:var(--muted)}
+#slide-4 .life-judgment-conclusion{margin:26px auto 0;font-family:Deck Serif,serif;font-size:18px;line-height:1.7;color:var(--ink)}
+#slide-5 .formalism-row .formalism-eq{display:flex;align-items:center;justify-content:flex-start;min-height:54px;padding:0}
+#slide-5 .formalism-row .tex-equation{display:block;width:auto;height:auto;max-width:100%;max-height:none;margin:0;object-fit:contain;object-position:left center}
+#slide-5 .formalism-row .math-display{display:none}
+#slide-5 .method-core{font-size:20px;line-height:1.75}
+#slide-5 .method-view-conclusion{font-size:12.5px;line-height:1.55;margin-top:8px}
+#slide-6 .body{justify-content:flex-start;padding-top:8px}
+#slide-6 .classical-thesis{font-family:Deck Serif,serif;font-size:18px;line-height:1.75;color:var(--ink);margin:0 0 22px}
+#slide-6 .quotation-spread{margin-top:0}
+#slide-5 .method-view-conclusion{margin:7px 0 9px;font-size:12px;line-height:1.5}
+#slide-5 .source{font-size:9.5px;line-height:1.4;bottom:55px}
+
+
+/* V18: water-centered closing page */
+#slide-17 .head{margin-bottom:22px}
+#slide-17 .closing-water-body{justify-content:flex-start;padding:0 0 0 0}
+#slide-17 .closing-water-grid{display:grid;grid-template-columns:0.92fr 1.08fr;gap:68px;align-items:start}
+#slide-17 .closing-quotation blockquote{font-size:43px;line-height:1.55;letter-spacing:.04em}
+#slide-17 .closing-quotation figcaption{font-size:12px;margin-top:7px}
+#slide-17 .closing-thought{font-size:17px;line-height:1.85;margin-top:22px;letter-spacing:0}
+#slide-17 .water-original{font-family:Deck Serif,serif;font-size:20px;line-height:1.9;color:var(--rose);margin-top:24px}
+#slide-17 .water-original sup{font-family:Deck Sans,sans-serif;font-size:10px;vertical-align:super;margin-left:3px}
+#slide-17 .water-classic{padding-top:8px}
+#slide-17 .water-classic blockquote{font-family:Deck Serif,serif;font-size:20px;line-height:1.9;color:var(--ink);font-weight:400}
+#slide-17 .water-classic figcaption{font-size:11px;color:var(--muted);margin-top:7px}
+#slide-17 .water-wisdom{font-family:Deck Serif,serif;font-size:24px;line-height:1.65;color:var(--rose);margin-top:24px}
+#slide-17 .water-wisdom span{font-size:19px;color:var(--ink)}
+#slide-17 .water-application{font-size:15px;line-height:1.75;color:var(--muted);margin-top:18px}
+#slide-17 .closing-signature{font-size:17px;margin-top:16px;letter-spacing:.12em}
+#slide-17 .author-note{position:absolute;right:100px;bottom:59px;font-size:10px;color:var(--muted)}
